@@ -1,5 +1,5 @@
 B.\"Manpage for simple shell
-.\"Created by Samuel Alene Tibebe
+.\"Created by Samuel Alene and Tibebe Solomon
 
 .TH SODASH 1 "August 2019" "Alx School" "SODA SHELL - Simple Shell man page"
 
@@ -10,7 +10,7 @@ sodash\fR \- simple UNIX command interpreter
 soda\fR [\fIfilename\fR]
 
 .SH COPYRIGHT
-soda is Copyright (C) 2019 by Luis Chaparro and Edward Ortiz
+soda is Copyright (C) 2019 by Samuel Alene and Tibebe Solomon
 
 .SH DESCRIPTION
 Soda\fR is a sh-compatible command language interpreter that executes commands read from the standard input or from a file.

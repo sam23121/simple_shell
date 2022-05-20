@@ -58,6 +58,5 @@ int funper(const char *format, int i, va_list toPrint, int *pun);
 int print_Number(int n, int *p);
 int _strcmp(char *s1, char *s2);
 int stat_fun(char **_str, int *_fl, char *_com, int c, char *av_0, char **env);
-char *handle_comment(char *str_input);
 
 #endif

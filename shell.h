@@ -42,7 +42,7 @@ int exec_handler(int *cicles, char **_args, char **av, char **env);
 void *_realloc(void *ptr, int old_size, int new_size);
 int fun_cd(char **);
 int fun_pwd(char **);
-// int fun_exit(char **);
+int fun_exit(char **);
 int fun_envi(char **);
 char *func_env(char *_com, char **env, int *no_path);
 char *_strdup(char *str);
@@ -59,11 +59,5 @@ int print_Number(int n, int *p);
 int _strcmp(char *s1, char *s2);
 int stat_fun(char **_str, int *_fl, char *_com, int c, char *av_0, char **env);
 char *handle_comment(char *str_input);
-int handle_exit(char *buff, char **cmds_list, char **commands);
-int get_exit_status(char *buff);
-int handle_PATH(char **commands);
-char *getpath(char *dir, char *filename);
-char **parse_user_input(char *str_input, char *delimiter);
-int count_args(char *str_input, char *delimiter);
 
 #endif
